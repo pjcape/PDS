@@ -1,0 +1,70 @@
+# Metadata for Government Recurrent Expenditure on Education Per Student
+---
+Identifier: '953f594f-84a2-4735-8eca-befe4a2add2c'
+Name: 'government-recurrent-expenditure-on-education-per-student'
+Title: 'Government Recurrent Expenditure on Education Per Student'
+Description:
+  - '1)     Preliminary figures.'
+  - '2)	Figures exclude Independent Schools.'
+  - '3)	Refers to full-time Nitec / Higher Nitec courses offered by the Institute
+    of Technical Education (ITE). Publicly-funded full-time diploma courses offered'
+  - 'by ITE are included under “Publicly-funded full-time diploma courses" from FY2012
+    onwards. From revised FY2018, it also includes funding to National Institute of
+    Early Childhood Development (NIEC) offering publicly-funded full-time Higher Nitec
+    courses.'
+  - '4)	Refers to publicly-funded full-time diploma courses offered by Singapore Polytechnic,
+    Ngee Ann Polytechnic, Temasek Polytechnic,  Nanyang Polytechnic and Republic Polytechnic.
+    Since FY2012, it includes publicly-funded full-time diploma courses offered by
+    ITE, LASALLE of the Arts (LASALLE) and'
+  - 'Nanyang Academy of Fine Arts (NAFA). From revised FY2018, it also includes funding
+    to NIEC offering publicly-funded full-time diploma courses.'
+  - '5)	Refers to publicly-funded full-time degree courses offered by National University
+    of Singapore, Nanyang Technological University, Singapore Management University,
+    Singapore Institute of Technology, Singapore University of Technology and Design,
+    LASALLE, NAFA and SIM University (renamed as Singapore University of Social Sciences
+    wef 2016)  from FY2014.'
+  - ''
+Topics:
+  - 'Education'
+Keywords:
+  - 'Government Expenditure'
+  - 'Schools'
+  - 'Students'
+Publisher:
+  Name: 'Ministry of Education'
+  Admin 1:
+    Name: 'Kevin Gan'
+    Department: 'RMID'
+    Email: 'moe_management_information@moe.gov.sg'
+Sources:
+  - 'Ministry of Education'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '1986-01-01 to 2021-12-31'
+Last Updated: '2023-02-27T07:44:30.464007'
+Resources:
+  -
+    Identifier: '1b84f2f7-b11e-4705-af17-82b67f050b85'
+    Title: 'Government Recurrent Expenditure on Education Per Student'
+    Url: 'https://storage.data.gov.sg/government-recurrent-expenditure-on-education-per-student/resources/government-recurrent-expenditure-on-education-per-student-2022-12-30T01-34-12Z.csv'
+    Format: 'CSV'
+    Coverage: '1986-01-01 to 2021-12-31'
+    Last Updated: '2022-12-30T01:34:12.962898'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'type_of_educational_institution'
+        Title: 'Type Of Educational Institution'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'expenditure_per_student'
+        Title: 'Expenditure Per Student'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$'
